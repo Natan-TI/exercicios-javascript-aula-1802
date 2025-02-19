@@ -28,5 +28,5 @@ console.log(menoresDeIdade); // [12, 17, 14]
 
 //EX - 7
 const valores = [2, 3, 4, 5];
-const produto = valores.reduce((total, num) => total * num);
+const produto = valores.reduce((total, num) => total * num, 1);
 console.log(produto); // 120 (pois 2 * 3 * 4 * 5 = 120)
